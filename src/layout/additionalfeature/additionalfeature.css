@@ -1,0 +1,44 @@
+.add-feature-parent {
+  width: 100%;
+}
+.add-feature-root {
+  max-width: 1300px;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-feature-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.try-for-free {
+  color: red;
+}
+.add-hide-root {
+  border-bottom: 2px solid;
+  border-color: rgb(255, 255, 255);
+}
+.add-hide-body {
+  display: none;
+}
+.add-feature-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-feature-img {
+  width: 518px;
+  height: 544px;
+}
+.add-feature-hide-root {
+  width: 60%;
+}

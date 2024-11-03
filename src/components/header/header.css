@@ -1,0 +1,25 @@
+.root-header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020a19;
+  color: white;
+  height: 69px;
+  position: absolute;
+  top: 0;
+  width: 88%;
+  max-width: 1300px;
+}
+.header-trial-button {
+  background-color: rgb(221, 7, 53);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 44px;
+  padding: 10px 26px;
+}

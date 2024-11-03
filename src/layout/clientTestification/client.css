@@ -1,0 +1,10 @@
+.test-root-parent {
+  width: 100%;
+}
+.test-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

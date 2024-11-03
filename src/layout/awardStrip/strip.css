@@ -1,0 +1,19 @@
+.award-strip-root {
+  width: 100%;
+  background-color: rgb(26, 28, 43);
+}
+.client-strip {
+  font-size: 14px;
+  border-right: 1px solid silver;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: white;
+}
+.award-strip-base {
+  width: 88%;
+  max-width: 1300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  margin: 0 auto;
+}

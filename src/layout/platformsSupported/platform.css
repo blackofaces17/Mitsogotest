@@ -1,0 +1,13 @@
+.platforms-root {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 120px;
+}
+.platform-image {
+  max-width: 190px;
+}
