@@ -80,19 +80,29 @@
 }
 
 @media (max-width: 900px) {
-  .test-slider {
+  .carousel-root {
+    max-width: 960px;
+    height: 615px;
+    border-radius: 18px;
+    display: flex;
+    background-color: white;
+    width: 395px;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    margin: px;
+    margin: 2px;
+    padding: 10px;
   }
-}
-
-@media (max-width: 575px) {
-  .test-root-header {
-    font-size: 32px;
+  .carousel-base {
+    margin-top: 20px;
   }
-
-  .test-slider {
-    padding: 20px;
+  .caraousel-quote {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .carousel-root > img {
+    width: 100%;
+    height: 100%;
   }
 }
