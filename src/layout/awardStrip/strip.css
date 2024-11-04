@@ -9,6 +9,9 @@
   padding-right: 45px;
   color: white;
 }
+.client-strip:last-child {
+border-right: none;
+}
 .award-strip-base {
   width: 88%;
   max-width: 1300px;

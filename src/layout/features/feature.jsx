@@ -65,7 +65,7 @@ const Feature = () => {
   return (
     <div className="feature-parent">
       <div className="feature-root">
-        <h1>Specific kiosk modes for unique use cases</h1>
+        <h1 className="feature-head-text">Specific kiosk modes for unique use cases</h1>
         <div className="feature">
           <div className="feature-button-root">
             <button
@@ -101,10 +101,10 @@ const Feature = () => {
           </div>
           <div className="feature-description">
             <div className="feature-text">
-              <h1>{cardData.header}</h1>
+              <h1 className="feature-headSub-text">{cardData.header}</h1>
               <ul>
                 {cardData.body.map((item) => {
-                  return <li>{item}</li>;
+                  return <li className="feature-list">{item}</li>;
                 })}
                 {/* <li>
                 Provision the devices to run one specialized application, with

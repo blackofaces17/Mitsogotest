@@ -2,25 +2,13 @@ import "./header.css";
 const Header = () => {
   return (
     <div
-      className="root-headerd"
-      style={{
-        backgroundColor: "#020a19",
-      }}
+      className="root-header"
     >
       <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          width: "88%",
-          margin: "0px auto",
-          maxWidth: "1300px",
-        }}
+        className="root-header-base"
       >
         <h1
-          style={{
-            color: "white",
-          }}
+          className="root-heading"
         >
           hexnode
         </h1>

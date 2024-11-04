@@ -10,4 +10,7 @@
 }
 .platform-image {
   max-width: 190px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
+

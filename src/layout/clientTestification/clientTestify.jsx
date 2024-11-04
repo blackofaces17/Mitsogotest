@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Carousel from "../../common/carousel";
 import "./client.css";
 import Justin from "../../assets/justin-modrak.webp";
@@ -26,14 +27,29 @@ const ClientTestify = () => {
       address: "East Troy Community School District",
     },
   ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? clientData.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === clientData.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
     <div className="test-root-parent">
       <div className="test-root">
-        <h1>Why should you choose Hexnode?</h1>
+        <h1 className="test-root-header">Why should you choose Hexnode?</h1>
         <div className="test-slider">
-          {clientData.map((item) => {
-            return <Carousel data={item} />;
-          })}
+          <button className="prev-button" onClick={handlePrev}>←</button>
+          <Carousel data={clientData[currentIndex]} />
+          <button className="next-button" onClick={handleNext}>→</button>
         </div>
       </div>
     </div>
@@ -41,3 +57,4 @@ const ClientTestify = () => {
 };
 
 export default ClientTestify;
+

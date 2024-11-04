@@ -14,12 +14,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  flex: 1 1;
   background-color: white !important;
   min-height: 80px;
   padding-left: 25px;
   padding-right: 25px;
+  border: 2px solid whitesmoke;
+  border-right: none;
+  border-radius: 5px;
+  font-size: 22px;
+  color: rgb(128, 132, 140);
+  font-weight: 599;
 }
+.feature-button:last-child{
+  border-right:2px solid whitesmoke
+}
+
 .feature-button-root {
   display: flex;
   flex-direction: row;
@@ -39,4 +49,25 @@
 }
 .feature-parent {
   width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.feature{
+  padding-top: 60px;
+}
+.feature-head-text{
+  font-size: 40px;
+}
+.feature-list{
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 28px;
+}
+.feature-headSub-text{
+  font-size: 28px;
+  line-height: 40px;
+}
+@media (min-width:900px){
+
 }

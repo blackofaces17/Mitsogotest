@@ -1,5 +1,5 @@
 .root-header {
-  display: flex;
+  /* display: flex;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,8 @@
   position: absolute;
   top: 0;
   width: 88%;
-  max-width: 1300px;
+  max-width: 1300px; */
+  background-color: #020a19;
 }
 .header-trial-button {
   background-color: rgb(221, 7, 53);
@@ -22,4 +23,15 @@
   transition: background-color 0.3s;
   height: 44px;
   padding: 10px 26px;
+}
+.root-header-base{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: 0px auto;
+  max-width: 1300px,
+}
+.root-heading{
+  color: white;
 }
