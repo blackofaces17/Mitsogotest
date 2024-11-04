@@ -32,12 +32,15 @@
   cursor: pointer;
   transition: background-color 0.3s;
   margin-left: 1%;
+  height: 52px;
 }
 
 .intro-text {
   border: none;
   border-radius: 3px;
-  height: 50%;
+  /* height: 50%; */
+  height: 52px;
+  width: 280px;
   padding: 0px 10px;
 }
 .intro-text::placeholder {
@@ -52,6 +55,14 @@
   height: 32px;
   justify-content: flex-start;
   align-items: center;
+}
+.intro-header-main {
+  font-size: 42px;
+  font-weight: bold;
+}
+.intro-image-main {
+  height: 597px;
+  width: 587px;
 }
 @media (max-width: 900px) {
   .root-intro {
