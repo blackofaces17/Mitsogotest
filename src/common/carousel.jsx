@@ -1,8 +1,10 @@
+import React from "react";
 import "./carousel.css";
+
 const Carousel = ({ data }) => {
   return (
     <div className="carousel-root">
-      <img src={data.img} className="carousel-image" />
+      <img src={data.img} className="carousel-image" alt="carousel" />
       <div className="carousel-base">
         <div className="caraousel-quote">{data.quote}</div>
         <div className="carousel-company">

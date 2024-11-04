@@ -10,7 +10,7 @@
   color: white;
 }
 .client-strip:last-child {
-border-right: none;
+  border-right: none;
 }
 .award-strip-base {
   width: 88%;
@@ -19,4 +19,14 @@ border-right: none;
   padding-bottom: 30px;
   display: flex;
   margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+  .client-strip {
+    font-size: 11px;
+    border-right: 1px solid silver;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+  }
 }
