@@ -43,7 +43,9 @@ const AdditionalFeature = () => {
   return (
     <div className="add-feature-parent">
       <div className="add-feature-root">
-        <h1 className="add-feature-header">What additional possibilities does the Kiosk mode offer?</h1>
+        <h1 className="add-feature-header">
+          What additional possibilities does the Kiosk mode offer?
+        </h1>
         <div className="add-feature-data">
           <div className="add-feature-image-parent">
             <img src={classAppend.img} className="add-feature-img" />
@@ -52,17 +54,19 @@ const AdditionalFeature = () => {
             {additionalFeatureArr.map((item) => {
               return (
                 <div className="add-hide-root">
-                   {/* <div className="add-feature-image-parent">
-                        {classAppend.id === item.id &&<img src={item.img} className="add-feature-img" />}
-                 </div> */}
-               <div>
-                  <h3 onClick={() => setClass(item)} className="add-featuresub-header">{item.header}</h3>
-                  {classAppend.id === item.id &&
-                  <>
-                  <p className="add-featuresub-par">{item.body}</p>
-                  <h4 className="try-for-free">TRY FOR FREE</h4>
-                  </> 
-                  }
+                  <div>
+                    <h3
+                      onClick={() => setClass(item)}
+                      className="add-featuresub-header"
+                    >
+                      {item.header}
+                    </h3>
+                    {classAppend.id === item.id && (
+                      <>
+                        <p className="add-featuresub-par">{item.body}</p>
+                        <h4 className="try-for-free">TRY FOR FREE</h4>
+                      </>
+                    )}
                   </div>
                 </div>
               );

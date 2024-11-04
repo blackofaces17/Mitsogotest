@@ -42,22 +42,30 @@
 .add-feature-hide-root {
   width: 60%;
 }
-.add-feature-header{
+.add-feature-header {
   font-size: 40px;
   line-height: 1.3;
   padding-bottom: 20px;
 }
-.add-feature-image-parent{
+.add-feature-image-parent {
   margin-right: 20px;
 }
-.add-featuresub-header{
+.add-featuresub-header {
   font-size: 26px;
   line-height: 40px;
   font-weight: 700;
 }
-.add-featuresub-par{
+.add-featuresub-par {
   font-size: 18px;
   font-weight: 400;
   padding-top: 20px;
   line-height: 28px;
+}
+@media (max-width: 900px) {
+  .add-feature-data {
+    flex-direction: column;
+  }
+  .add-feature-root {
+    padding: 60px;
+  }
 }
