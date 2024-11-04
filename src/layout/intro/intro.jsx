@@ -3,13 +3,7 @@ import Image from "../../assets/hexnode-kiosk.webp";
 
 const Intro = () => {
   return (
-    <div
-      // style={{
-      //   width: "100%",
-      //   backgroundColor: "#020a19",
-      // }}
-      className="root-parent"
-    >
+    <div className="root-parent">
       <div className="root-intro">
         <div className="intro-input-box">
           <h1
@@ -26,7 +20,7 @@ const Intro = () => {
               className="intro-text"
               placeholder="Your Work Email"
               style={{
-                height: "52px", // TODO: update height
+                height: "52px",
                 width: "280px",
               }}
             />
